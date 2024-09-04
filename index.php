@@ -5,8 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us Form using PHP and MySQL</title>
-
-    </head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa; 
+        }
+        .navbar, .footer {
+            background-color: #FF8C00;
+        }
+        .navbar-brand, .footer p {
+            color: white !important; 
+        }
+        .card-header {
+            background-color: #FFA500; 
+            color: white; 
+        }
+        .btn-success {
+            background-color: #FF8C00; 
+            border-color: #FF8C00; 
+        }
+        .btn-danger {
+            background-color: #FF4500; 
+            border-color: #FF4500; 
+        }
+        .btn-success:hover, .btn-danger:hover {
+            opacity: 0.9; 
+        }
+    </style>
+</head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="#">Contact Form</a>
