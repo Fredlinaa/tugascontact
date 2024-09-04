@@ -5,7 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Contact Form Application</title>
-    <body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa; 
+        }
+        .navbar, .footer {
+            background-color: #FF8C00; 
+        }
+        .navbar-brand, .footer p {
+            color: white !important; 
+        }
+        .jumbotron {
+            background-color: #FFA500; 
+            color: white; 
+        }
+        .profile-img {
+            border-radius: 50%;
+            max-width: 150px;
+            border: 5px solid white;
+        }
+    </style>
+<head>
+<body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">Contact Form</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
